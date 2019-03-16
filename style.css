@@ -89,6 +89,12 @@ img {
 	text-decoration: none;
 }
 
+img.half {
+	max-width: 48%;
+	float: left;
+	margin-right: 1%
+}
+
 blockquote {
 	font-size:26px;
 	line-height: 30px;
@@ -170,6 +176,10 @@ a:active {
 		max-width: 100%;
 	}
 
+	img.half {
+	max-width: 100%;
+	margin-right: 25px;
+}
 
 }
 
