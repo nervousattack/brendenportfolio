@@ -40,10 +40,17 @@ div {
 	clear: both;
 }
 
+#footer {
+	width: 800px;
+}
+
+#sniffer {
+	width: 200px;
+}
+
 #words {
 	font-family: 'BB2';
 }
-
 
 /* STYLE --------------- */
 
@@ -95,9 +102,21 @@ img.half {
 	margin-right: 1%
 }
 
+img.alyssa {
+	max-width:30%;
+	margin-right: 3.33%;
+	float: left;
+}
+
 blockquote {
 	font-size:26px;
 	line-height: 30px;
+}
+
+video {
+	display: block;
+	margin:0;
+    padding:0;    
 }
 
 ::selection { background: #53d5f4; color: black; text-shadow: none; /* Safari */ }
@@ -177,8 +196,8 @@ a:active {
 	}
 
 	img.half {
-	max-width: 100%;
-	margin-right: 25px;
+		max-width: 100%;
+		margin-right: 25px;
 	}
 
 	video {
@@ -186,5 +205,10 @@ a:active {
 		height: auto !important;
 	}
 
+	img.alyssa {
+		max-width:100%;
+		max-height: 100%;
+		margin-right: 0;
+	}
 }
 
