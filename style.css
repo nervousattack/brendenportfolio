@@ -205,6 +205,13 @@ a:active {
 		height: auto !important;
 	}
 
+	iframe {
+		margin: 0;
+		width: 98%;
+		height: 400px;
+		float: left;
+	}
+
 	img.alyssa {
 		max-width:100%;
 		max-height: 100%;
