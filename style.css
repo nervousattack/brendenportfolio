@@ -11,6 +11,10 @@
     src: url(fonts/bb-book-B-regular.otf);
 }
 
+html {
+	cursor: url('sparkle.png'), auto;
+}
+
 body {
 	font-family: 'BB', Arial, Helvetica, sans-serif;
 	font-weight: normal;
@@ -22,7 +26,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background: black;
-	cursor: url('sparkle.png'), auto;
 }
 
 div {
