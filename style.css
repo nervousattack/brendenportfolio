@@ -33,6 +33,10 @@ div {
 	float: left;
 }
 
+#header {
+	text-align-last: justify;
+}
+
 .description {
 	width: 100%;
 }
@@ -54,6 +58,28 @@ div {
 
 #words {
 	font-family: 'BB2';
+}
+
+figure {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+figcaption {
+	position: fixed;
+	z-index: 9999;
+	background: black;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px 0;
+	bottom: 0;
+	display: none;
+}
+
+figure:hover figcaption {
+	display: block;
 }
 
 /* STYLE --------------- */
