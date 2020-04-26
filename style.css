@@ -12,7 +12,7 @@
 }
 
 html {
-	cursor: url('sparkle.png'), auto;
+	cursor: url('sparkle.png') 51 32, auto;
 }
 
 body {
@@ -164,7 +164,7 @@ a:visited {
 a:hover{
 	text-decoration:none;
 	color: #53d5f4;
-	cursor: url('sparkle.png'), pointer;
+	cursor: url('sparkle.png') 51 32, pointer;
 }
 
 a:active {
