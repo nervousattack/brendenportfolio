@@ -284,28 +284,28 @@ a:active {
   0% {
     opacity:0;
   }
-  98% {
+  97% {
     opacity:0;
   }
-  98.25% {
+  97.5% {
     opacity:0.1;
   }
-  98.5% {
+  98% {
     opacity:1;
   }
-  98.75% {
+  98.5% {
     opacity:0.1;
   }
   99% {
     opacity:1;
   }
   99.5% {
-    opacity:0.7;
+    opacity:0.1;
   }
   99.75% {
     opacity:1;
   }
   100% {
-    opacity:0.5;
+    opacity:0.1;
   }
 }
