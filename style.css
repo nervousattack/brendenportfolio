@@ -18,10 +18,10 @@ body {
 	line-height: 35px;
 	letter-spacing: -1px;
 	text-align: left;
-	color: black;
+	color: white;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: #E8E8E8;
+	background: black;
 }
 
 div {
@@ -70,7 +70,7 @@ div {
 hr { 
 	width: 100%;
 	display: block;
-    border: 3px solid black;
+    border: 3px solid white;
     border-style: none none solid; 
     color: #fff; 
     background-color: #fff; 
@@ -119,8 +119,8 @@ video {
     padding:0;    
 }
 
-::selection { background: #53d5f4; color: black; text-shadow: none; /* Safari */ }
-::-moz-selection { background: #53d5f4; color: black; text-shadow: none; /* Firefox */ }
+::selection { background: #53d5f4; color: white; text-shadow: none; /* Safari */ }
+::-moz-selection { background: #53d5f4; color: white; text-shadow: none; /* Firefox */ }
 
 
 /* MARQUEE ------------- */
@@ -148,13 +148,13 @@ video {
 a:link {
 	font-family: 'BB2';
 	text-decoration:none;
-	color: black;
+	color: white;
 	font-weight: bold;
 }
 
 a:visited {
 	text-decoration:none;
-	color: black;
+	color: white;
 }
 
 a:hover{
