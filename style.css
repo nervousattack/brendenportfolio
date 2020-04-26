@@ -33,8 +33,14 @@ div {
 	float: left;
 }
 
-#header {
+.justify {
 	text-align-last: justify;
+	text-align: justify;
+}
+
+.artdirection {
+	font-size: 16px;
+	line-height: normal;
 }
 
 .description {
@@ -69,7 +75,7 @@ figure {
 
 figcaption {
 	position: fixed;
-	z-index: 9999;
+	z-index: 9998;
 	background: black;
 	width: 1000px;
 	margin: 0 auto;
@@ -104,14 +110,14 @@ hr {
     border-style: none none solid; 
     color: #fff; 
     background-color: #fff; 
-    margin: 0 0 0.5em 0; 
+    margin: 0.25em 0 0.1em 0; 
     padding: 0;
     float: left;
     clear: both;
 }
 
 p {
-	margin: 0 0 .6em 0;
+	margin: 0;
 }
     
 img {
@@ -119,7 +125,7 @@ img {
 	max-height: 750px;
 	padding: 0;
 	display: block;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     margin-right: 25px;
     float: left;
 	border-style: none;
@@ -136,6 +142,10 @@ img.alyssa {
 	max-width:30%;
 	margin-right: 3.33%;
 	float: left;
+}
+
+iframe {
+	margin-bottom: 50px;
 }
 
 blockquote {
@@ -251,6 +261,51 @@ a:active {
 
 	figcaption {
 		width: 100%;
+		left: 0;
 	}
 }
 
+#zeena {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100vw;
+	height: 100vh;
+	background: url(images/zeena.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right; 
+	animation: border-flicker 15s ease infinite;
+	pointer-events: none;
+	z-index: 9999;
+}
+
+@keyframes border-flicker {
+  0% {
+    opacity:0;
+  }
+  98% {
+    opacity:0;
+  }
+  98.25% {
+    opacity:0.1;
+  }
+  98.5% {
+    opacity:1;
+  }
+  98.75% {
+    opacity:0.1;
+  }
+  99% {
+    opacity:1;
+  }
+  99.5% {
+    opacity:0.7;
+  }
+  99.75% {
+    opacity:1;
+  }
+  100% {
+    opacity:0.5;
+  }
+}
