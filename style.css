@@ -263,6 +263,10 @@ a:active {
 		width: 100%;
 		left: 0;
 	}
+
+	.artdirection {
+	font-size: 12px;
+	line-height: normal;
 }
 
 #zeena {
