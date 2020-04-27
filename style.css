@@ -281,7 +281,7 @@ a:active {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right; 
-	animation: border-flicker 18s ease infinite;
+	animation: border-flicker 15s ease infinite;
 	pointer-events: none;
 	z-index: 9999;
 }
