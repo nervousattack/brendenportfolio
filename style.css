@@ -270,7 +270,14 @@ a:active {
 	font-size: 12px;
 	line-height: normal;
 	}
+
+	.justify {
+	text-align-last: left;
+	text-align: left;
+	}
 }
+
+/* ZEENA */
 
 #zeena {
 	position: fixed;
