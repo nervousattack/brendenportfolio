@@ -5,8 +5,8 @@ html {
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
-	font-size: 30px;
-	line-height: 35px;
+	font-size: 18px;
+	line-height: 22px;
 	letter-spacing: normal;
 	text-align: left;
 	color: white;
@@ -45,7 +45,7 @@ header {
 
 #footer {
 	width: 100%;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: normal;
 	margin-bottom: 25px;
 	text-align: center;"
@@ -219,8 +219,8 @@ a:active {
 @media screen and (max-width:680px){
 	
 	body {
-		font-size: 20px;
-		line-height: 24px;
+		font-size: 18px;
+		line-height: 22px;
 	}
 	
 
@@ -229,6 +229,10 @@ a:active {
 		width: 96%;
 	}
 
+	#about {
+		font-size: 24px;
+		line-height: 30px;
+	}
 
 	video {
 		width: 100% !important;
@@ -249,7 +253,7 @@ a:active {
 	}
 
 	#footer {
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 
