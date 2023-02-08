@@ -22,7 +22,7 @@ div {
 
 header {
 	position: fixed;
-	top: 2%;
+	top: 1.2%;
 	left: 1.2%;
 	z-index: 9999;
 }
@@ -32,10 +32,10 @@ header {
 }
 
 #container {
-	width: 1200px;
-	margin: 25px auto;
-	float: none;
-	clear: both;
+	width: 80%;
+	margin: 1.2% auto;
+	margin-right: 1.2%;
+	float: right;
 }
 
 #about {
@@ -62,7 +62,7 @@ figcaption {
 	position: fixed;
 	z-index: 9998;
 	background: black;
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 10px 0 20px 0;
 	bottom: 0;
@@ -199,7 +199,7 @@ a:active {
 @media screen and (max-width:900px){
 
 	#container {
-		width: 98%;
+		width: 96%;
 	}
 
 	header {
