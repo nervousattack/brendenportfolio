@@ -1,26 +1,13 @@
-@font-face {
-    font-family: "BB";
-    src: url(fonts/bb-book-B-ultraexpanded.otf);
-}
-@font-face {
-    font-family: "BB2";
-    src: url(fonts/bb-book-B-expanded.otf);
-}
-@font-face {
-    font-family: "BB3";
-    src: url(fonts/bb-book-B-regular.otf);
-}
-
 html {
 	cursor: url('sparkle.png') 51 32, auto;
 }
 
 body {
-	font-family: 'BB', Arial, Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 30px;
 	line-height: 35px;
-	letter-spacing: -1px;
+	letter-spacing: normal;
 	text-align: left;
 	color: white;
 	-webkit-font-smoothing: antialiased;
@@ -33,14 +20,11 @@ div {
 	float: left;
 }
 
-.justify {
-	text-align-last: justify;
-	text-align: justify;
-}
-
-.artdirection {
-	font-size: 16px;
-	line-height: normal;
+header {
+	position: fixed;
+	top: 2%;
+	left: 1.2%;
+	z-index: 9999;
 }
 
 .description {
@@ -48,22 +32,23 @@ div {
 }
 
 #container {
-	width: 1000px;
+	width: 1200px;
 	margin: 25px auto;
 	float: none;
 	clear: both;
 }
 
+#about {
+	font-size: 40px;
+	line-height: 45px;
+}
+
 #footer {
-	width: 800px;
-}
-
-#sniffer {
-	width: 200px;
-}
-
-#words {
-	font-family: 'BB2';
+	width: 100%;
+	font-size: 20px;
+	line-height: normal;
+	margin-bottom: 25px;
+	text-align: center;"
 }
 
 figure {
@@ -77,12 +62,11 @@ figcaption {
 	position: fixed;
 	z-index: 9998;
 	background: black;
-	width: 1000px;
+	width: 1200px;
 	margin: 0 auto;
 	padding: 10px 0 20px 0;
 	bottom: 0;
 	display: none;
-	font-size: 16px;
 	line-height: normal;
 }
 
@@ -92,18 +76,6 @@ figure:hover figcaption {
 
 /* STYLE --------------- */
 
-.titles {
-	font-family: 'BB';
-	text-transform: uppercase;
-}
-
-.footnotes {
-	font-family: Courier, monospace;
-	font-size: 13px;
-	line-height: 16px;
-	font-weight: bold;
-	letter-spacing: normal;
-}
 
 hr { 
 	width: 100%;
@@ -123,15 +95,26 @@ p {
 }
     
 img {
-	max-width: 100%;
-	max-height: 750px;
+	width: 100%;
 	padding: 0;
 	display: block;
-    margin-bottom: 50px;
-    margin-right: 25px;
-    float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.2%;
+  margin-top: 0;
+  text-align: center;
 	border-style: none;
 	text-decoration: none;
+}
+
+video {
+	width: 100%;
+	height: auto;
+	border: 0;
+	margin: 0 0 3% 0;
+	padding: 0;
+	display: block;
+	line-height: 0;
 }
 
 img.half {
@@ -188,27 +171,26 @@ video {
 /* LINKS --------------- */
 
 a:link {
-	font-family: 'BB2';
-	text-decoration:none;
+	text-decoration:underline;
 	color: white;
-	font-weight: bold;
 }
 
 a:visited {
-	text-decoration:none;
+	text-decoration:underline;
 	color: white;
 }
 
 a:hover{
 	text-decoration:none;
-	color: #53d5f4;
+	color: white;
 	cursor: url('sparkle.png') 51 32, pointer;
 }
 
 a:active {
 	text-decoration:none;
-	color: #53d5f4;
+	color: white;
 }
+
 
 
 
@@ -220,6 +202,18 @@ a:active {
 		width: 98%;
 	}
 
+	header {
+		position: static;
+		margin-bottom: 7%;
+		top: 1%;
+	}
+
+	figcaption {
+		width: 100%;
+		padding: 2%;
+		left: 0;
+	}
+
 }
 
 @media screen and (max-width:680px){
@@ -229,19 +223,12 @@ a:active {
 		line-height: 24px;
 	}
 	
+
 	#container {
 		margin: 2% 2%;
 		width: 96%;
 	}
-	
-	img {
-		max-width: 100%;
-	}
 
-	img.half {
-		max-width: 100%;
-		margin-right: 25px;
-	}
 
 	video {
 		width: 100% !important;
@@ -261,20 +248,11 @@ a:active {
 		margin-right: 0;
 	}
 
-	figcaption {
-		width: 100%;
-		left: 0;
+	#footer {
+		font-size: 14px;
 	}
 
-	.artdirection {
-	font-size: 12px;
-	line-height: normal;
-	}
 
-	.justify {
-	text-align-last: left;
-	text-align: left;
-	}
 }
 
 /* ZEENA */
